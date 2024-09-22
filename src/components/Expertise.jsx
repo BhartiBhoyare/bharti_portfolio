@@ -4,7 +4,7 @@ import css from "../assets/css.png";
 // import javascript from "../assets/JavaScript.png";
 import tailwind from "../assets/tailwind.png";
 import reactjs from "../assets/ReactJs.png";
-import github from "../assets/Github.png";
+// import github from "../assets/Github.png";
 import mysql from "../assets/MySQL.png";
 import { Animation } from "@hemant0621/animation";
 
@@ -42,7 +42,7 @@ const Expertise = () => {
     },
     {
       id: 8,
-      src: github,
+      src: "/Github.png",
       title: "GitHub",
       style: "shadow-gray-400 text-white font-bold text-base",
     },
