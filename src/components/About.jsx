@@ -6,13 +6,13 @@ const about = () => {
   return (
     <div name="about" className="w-full mt-28 p-2">
       <div className="max-w-screen-lg p-6 mx-auto flex flex-col justify-center items-center h-full">
-        <div ref={Animation("left","30px",200, 3000)}
+        <div ref={Animation("left","30px",200, 1000)}
             className="text-4xl font-bold inline border-b-4 border-rose-800 text-rose-100 lg:text-6xl items-center mb-6"
           >
             About me
         </div>
         <div className="flex flex-col-reverse lg:flex-row-reverse lg:mt-5">
-          <div ref={Animation("right", "30px", 200, 3000)} className="text-lg lg:text-xl text-white lg:w-[30rem]">
+          <div ref={Animation("right", "30px", 200, 2000)} className="text-lg lg:text-xl text-white lg:w-[30rem]">
             <div className="w-full text-sm lg:text-xl">
               <div>
                 <p className="font-bold text-rose-300 text-base lg:text-xl">Email Id: <span className="text-white">bhartibhoyare@gmail.com </span> </p> 
