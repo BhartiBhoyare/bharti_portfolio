@@ -1,7 +1,7 @@
 import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import javascript from "../assets/JavaScript.png";
+// import javascript from "../assets/JavaScript.png";
 import tailwind from "../assets/tailwind.png";
 import reactjs from "../assets/ReactJs.png";
 import github from "../assets/Github.png";
@@ -24,7 +24,7 @@ const Expertise = () => {
     },
     {
       id: 3,
-      src: javascript,
+      src: "/JavaScript.png",
       title: "JavaScript",
       style: "shadow-yellow-500 text-white font-bold text-base",
     },
@@ -58,7 +58,7 @@ const Expertise = () => {
     <div
       name="experience"
       ref={Animation("left", "10px", 200, 2000)}
-      className="bg-gradient-to-b lg:mt-20 h-screen"
+      className="bg-gradient-to-b lg:mt-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-200">
         <div className="flex justify-center lg:text-5xl text-4xl font-bold p-2">
