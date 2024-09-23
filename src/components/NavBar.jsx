@@ -29,7 +29,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-16 px-4 pt-3 text-slate-950 bg-[#1ebfda] z-30">
+    <div className="flex justify-between items-center w-full h-16 px-4 pt-3 text-slate-950 bg-[#22d3ee] z-30">
       <div
         ref={Animation("top", "10px", 200, 2000)}
         className="lg:text-[2.8rem] text-4xl font-semibold font-signature ml-2"

@@ -11,7 +11,7 @@ const Home = () => {
           <h2 ref={Animation("top", "10px", 200, 3000)} className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Front-end <span className="text-pink-600">Developer</span>
           </h2>
-          <p ref={Animation("top", "10px", 200, 3000)} className ="text-gray-300 text-xl lg:text-2xl lg:mt-4 font-bold py-6 max-w-md">
+          <p ref={Animation("top", "10px", 200, 3000)} className ="text-rose-100 text-xl lg:text-2xl lg:mt-4 font-bold py-6 max-w-md">
           I am passionate about web development and eager to turn my ideas into eye-catching websites that truly connect with people.
           </p>
           <div>
