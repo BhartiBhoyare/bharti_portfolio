@@ -33,25 +33,25 @@ const Expertise = () => {
       id: 4,
       src: reactjs,
       title: "ReactJs",
-      style: "shadow-blue-600 text-white font-bold text-base",
+      style: "shadow-[#01dbff] text-white font-bold text-base",
     },
     {
       id: 5,
       src: tailwind,
       title: "Tailwind CSS",
-      style: "shadow-sky-400 text-white font-bold text-base",
+      style: "shadow-[#44a8b3] text-white font-bold text-base",
     },
     {
       id: 6,
       src: "/Github.png",
       title: "GitHub",
-      style: "shadow-gray-400 text-white font-bold text-base",
+      style: "shadow-gray-300 text-white font-bold text-base",
     },
     {
       id: 7,
       src: mysql,
       title: "MySQL",
-      style: "shadow-sky-600 text-white font-bold text-base",
+      style: "shadow-[#4479a1] text-white font-bold text-base",
     },
     {
       id: 8,
@@ -67,7 +67,7 @@ const Expertise = () => {
       ref={Animation("right", "50px", 200, 2000)}
       className="bg-gradient-to-b lg:mt-20"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-200">
+      <div className="max-w-screen-lg bg- mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-200">
         <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">
             <p className="border-b-4 pb-2 border-rose-900">
             Expertise
