@@ -20,7 +20,7 @@ const Home = () => {
   ];
 
   return (
-    <div name="home" className="w-full text-white">
+    <div name="home" className="w-full text-white mt-20">
       <div className="lg:w-full flex flex-col-reverse gap-5 lg:gap-0 lg:justify-between items-center lg:px-40 px-[1.8rem] md:flex-row"> 
         <div className="flex flex-col justify-center lg:mt-24">
           <h2 ref={Animation("top", "10px", 200, 3000)} className="text-4xl sm:text-7xl font-bold text-white">
