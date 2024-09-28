@@ -8,7 +8,7 @@ import Cert6 from "../assets/certificate 6.png";
 import { Animation } from "@hemant0621/animation";
 
 const Certificates = () => {
-  const portfolios = [
+  const link = [
     {
       id: 1,
       src: Cert1,
@@ -49,7 +49,7 @@ const Certificates = () => {
 
   return (
     <div
-      name="portfolio"
+      name="certificates"
       ref={Animation("right", "50px", 200, 2000)}
       className="w-full text-white lg:mt-10"
     >
@@ -62,15 +62,22 @@ const Certificates = () => {
           ref={Animation("left", "50px", 200, 2000)}
           className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mt-12 px-12 sm:px-0"
         >
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className=" shadow-md shadow-rose-400 rounded-lg">
+          {link.map(({ id, src }) => (
+            <div
+              key={link.id}
+              className=" shadow-md shadow-rose-400 rounded-lg"
+            >
               <img
                 src={src}
                 alt=""
                 className="rounded-xl h-[16rem] py-2 px-2 duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125">
+                <button
+                  href={link.href ? link.href : "/"}
+                  className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125"
+                  download={link.download}
+                >
                   Download
                 </button>
               </div>
