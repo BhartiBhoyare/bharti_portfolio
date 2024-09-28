@@ -20,7 +20,7 @@ const Footer = () => {
         id: 2,
         child: (
           <>
-            Mail <IoMdMail size={20} />
+            Mail Id <IoMdMail size={20} />
           </>
         ),
         href: "mailto:bhartibhoyare@gmail.com",
@@ -46,7 +46,9 @@ const Footer = () => {
   ];
 
   return (
-    <div className="bg-[#05182f] lg:mt-6 p-6">
+    <div 
+    name = "contact"
+    className="lg:mt-6 p-6">
       <div ref={Animation("right", "50px", 200)} className="text-rose-400 font-bold text-pretty text-2xl lg:text-3xl flex flex-col text-center py-6">
         Contact me
         <div ref={Animation("left", "50px", 200)} className="pt-4">
@@ -59,33 +61,23 @@ const Footer = () => {
               82-B Utkarsh Vihar Colony Mhow Madhya Pradesh, India - 453441
             </span>{" "}
           </p>
-          <div className="lg:hidden text-white flex flex-col items-center text-sm">
-            <ul>
+          <div className="lg:hidden text-white grid grid-cols-2 gap-2 pl-16 pr-3 mt-2 text-sm">
               {links.map((link) => (
                 <div
                   key={link.id}
                 >
-                  <li
-                    key={link.id}
-                    className={
-                      "" +
-                      " " +
-                      link.style
-                    }
-                  >
                     <a
                       href={link.href ? link.href : "/"}
-                      className="flex justify-center items-center px-2"
                       download={link.download}
                       target="_blank"
                       rel="noreferrer"
                     >
+                      <span className="flex gap-2">
                       {link.child}
+                      </span>
                     </a>
-                  </li>
                 </div>
               ))}
-            </ul>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const Home = () => {
   ];
 
   return (
-    <div name="home" className="w-full text-white mt-20">
+    <div name="home" className="w-full text-white mt-14">
       <div className="lg:w-full flex flex-col-reverse gap-5 lg:gap-0 lg:justify-between items-center lg:px-40 px-[1.8rem] md:flex-row"> 
         <div className="flex flex-col justify-center lg:mt-24">
           <h2 ref={Animation("top", "10px", 200, 3000)} className="text-4xl sm:text-7xl font-bold text-white">
@@ -30,8 +30,10 @@ const Home = () => {
           I am passionate about web development and eager to turn my ideas into eye-catching websites that truly connect with people.
           </p>
           <div>
-          {links.map((link) => (
-            <button ref={Animation("left", "10px", 200, 3000)} className="lg:hidden group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer">
+          {links.map((link, index) => (
+            <button ref={Animation("left", "10px", 200, 3000)} className="lg:hidden group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer"
+            key={index}
+            >
               <a
               href={link.href ? link.href : "/"}
               className="flex justify-between items-center w-full text-white"
@@ -52,7 +54,7 @@ const Home = () => {
           <img
             src={BhartiImage}
             alt="my profile"
-            ref={Animation("left", "10px", 200, 3000)} className="rounded-2xl mx-auto h-[18rem] lg:h-[30rem] lg:w-[26rem] lg:mt-4"
+            ref={Animation("left", "10px", 200, 3000)} className="rounded-2xl mx-auto h-[18rem] lg:h-[30rem] lg:w-[26rem] mt-8 lg:mt-6"
           />
         </div>
       </div>

@@ -56,7 +56,7 @@ const Expertise = () => {
 
   return (
     <div
-      name="experience"
+      name="expertise"
       ref={Animation("right", "50px", 200, 2000)}
       className="bg-gradient-to-b lg:mt-20"
     >
@@ -69,7 +69,7 @@ const Expertise = () => {
 
         <div
           ref={Animation("left", "80px", 200, 2000)}
-          className="lg:w-full lg:mt-8 grid w-[20rem] grid-cols-2 lg:grid-cols-3 gap-8 text-center py-8 pl-10 lg:px-0"
+          className="lg:w-full lg:mt-8 w-[20rem] grid grid-cols-2 lg:grid-cols-3 gap-8 text-center py-8 pl-10 lg:px-0"
         >
           {techs.map(({ id, src, title, style }) => (
             <div

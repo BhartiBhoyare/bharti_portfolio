@@ -46,7 +46,7 @@ const SocialLinks = () => {
       download: true,
     },
     {
-      id: 2,
+      id: 5,
       child: (
         <>
           Instagram <FaInstagramSquare size={26} />
@@ -57,7 +57,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden flex-col top-[36%] left-0 fixed lg:flex">
+    <div className="hidden flex-col top-[36%] left-0 fixed lg:flex z-50">
       <ul>
       {links.map((link) => (
        <div key={link.id} ref={Animation("left", "100px", link.id*100, 2000)}>
