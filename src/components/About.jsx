@@ -24,6 +24,7 @@ const about = () => {
                 <Progress value={90} name={"6. C++ '90%'"} />
                 <Progress value={90} name={"7. Python '90%'"} />
                 <Progress value={75} name={"8. MySQL '75%'"} />
+                <Progress value={70} name={"9. AWS '70%'"} />
               </div>
             </div>
           </div>

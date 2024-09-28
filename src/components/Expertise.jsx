@@ -6,7 +6,7 @@ import tailwind from "../assets/tailwind.png";
 import reactjs from "../assets/ReactJs.png";
 // import github from "../assets/Github.png";
 import mysql from "../assets/MySQL.png";
-import aws from "../assets/aws.png";
+// import aws from "../assets/aws.png";
 import { Animation } from "@hemant0621/animation";
 
 const Expertise = () => {
@@ -53,12 +53,12 @@ const Expertise = () => {
       title: "MySQL",
       style: "shadow-[#4479a1] text-white font-bold text-base",
     },
-    {
-      id: 8,
-      src: aws,
-      title: "AWS",
-      style: "shadow-orange-400 text-white font-bold text-base",
-    },
+    // {
+    //   id: 8,
+    //   src: aws,
+    //   title: "AWS",
+    //   style: "shadow-orange-400 text-white font-bold text-base",
+    // },
   ];
 
   return (
