@@ -42,7 +42,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={26} />
         </>
       ),
-      href: "/Bharti Bhoyare CV.pdf",
+      href: "/Bharti Bhoyare Job CV final.pdf",
       download: true,
     },
     {
