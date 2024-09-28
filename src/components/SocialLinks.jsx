@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaInstagramSquare } from "react-icons/fa";
 import { Animation } from "@hemant0621/animation";
 
 const SocialLinks = () => {
@@ -44,10 +45,19 @@ const SocialLinks = () => {
       href: "/Bharti Bhoyare CV.pdf",
       download: true,
     },
+    {
+      id: 2,
+      child: (
+        <>
+          Instagram <FaInstagramSquare size={26} />
+        </>
+      ),
+      href: "https://www.instagram.com/",
+  },
   ];
 
   return (
-    <div className="hidden flex-col top-[35%] left-0 fixed lg:flex">
+    <div className="hidden flex-col top-[36%] left-0 fixed lg:flex">
       <ul>
       {links.map((link) => (
        <div key={link.id} ref={Animation("left", "100px", link.id*100, 2000)}>
@@ -60,7 +70,7 @@ const SocialLinks = () => {
         }
         >
             <a
-              ref={Animation("left", "200px", link.id*150)}
+              ref={Animation("left", "200px", link.id*200)}
               href={link.href ? link.href : "/"}
               className="flex justify-between items-center w-full text-white"
               download={link.download}

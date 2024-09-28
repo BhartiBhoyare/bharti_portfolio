@@ -65,13 +65,13 @@ const Certificates = () => {
         </div>
 
         <div
-          ref={Animation("left", "50px", 200, 2000)}
-          className="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-12 lg:px-12 px-8"
+          ref={Animation("left", "80px", 200, 2000)}
+          className="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-12 lg:px-0 px-8"
         >
           {links.map((link) => (
             <div
               key={link.id}
-              className=" shadow-md shadow-rose-400 rounded-lg lg:h-[18rem] h-[9.5rem]"
+              className=" shadow-md shadow-cyan-700 rounded-lg lg:h-[18rem] h-[9.5rem]"
             >
               <img
                 src={link.src}

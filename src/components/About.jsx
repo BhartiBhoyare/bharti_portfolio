@@ -14,13 +14,8 @@ const about = () => {
         <div className="flex flex-col-reverse lg:flex-row-reverse lg:mt-5">
           <div ref={Animation("right", "30px", 200, 2000)} className="text-lg lg:text-xl text-white lg:w-[30rem]">
             <div className="w-full text-sm lg:text-xl">
-              <div>
-                <p className="font-bold text-rose-300 text-base lg:text-xl">Email Id: <span className="text-white">bhartibhoyare@gmail.com </span> </p> 
-                <p className="font-bold text-rose-300 text-base lg:text-xl">Phone No.: <span className="text-white">9039269129</span> </p>  
-                <p className="font-bold text-rose-300 text-base lg:text-xl">Address: <span className="text-white">82-B Utkarsh Vihar Colony Mhow Madhya Pradesh, India - 453441</span> </p> 
-              </div>
-              <div className="mt-6">
-                <p className="text-xl mb-4 font-bold text-rose-400 lg:text-2xl">My Skills...</p>
+              <div className="mt-2">
+                <p className="text-3xl mb-4 font-bold text-rose-500 lg:text-2xl">My Skills...</p>
                 <Progress value={95} name={"1. HTML '95%'"} />
                 <Progress value={95} name={"2. CSS '95%'"} />
                 <Progress value={80} name={"3. JavaScript '80%'"} />
@@ -36,7 +31,7 @@ const about = () => {
             ref={Animation("right", "30px", 2)}
             className="text-lg text-white lg:pr-6 lg:w-[30rem]"
           >
-            <span className="text-2xl lg:text-4xl text-rose-400 font-bold">
+            <span className="text-2xl lg:text-4xl text-rose-500 font-bold">
               Hello, It's Bharti Bhoyare!
             </span>
             <div className="pt-2 text-base lg:text-xl">
@@ -45,14 +40,14 @@ const about = () => {
               strong interest in web development and am excited to create
               engaging, user-friendly websites that connect with people.
 
-              <ul className="text-rose-400 lg:text-3xl"> Education:
+              <ul className="text-rose-500 lg:text-3xl"> Education:
                 <p className="text-white lg:text-lg">
                 <li>Current CGPA: 7.65</li>
                 <li>12th Grade: Kendriya Vidyalaya Mhow - 76.6%</li>
                 <li>10th Grade: Kendriya Vidyalaya Mhow - 65.2%</li>
                 </p>
               </ul>
-              <ul className="text-rose-400 lg:text-3xl"> Hobbies:
+              <ul className="text-rose-500 lg:text-3xl"> Hobbies:
                 <p className="text-white lg:text-lg">
                 <li>Helping others</li>
                 <li>Cooking</li>
