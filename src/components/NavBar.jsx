@@ -43,7 +43,7 @@ const Navbar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize font-semibold text-base text-slate-950 hover:scale-105 duration-200"
               >
-              <div ref={Animation("top", "10px", id*100, 2000)}>
+              <div ref={Animation("top", "10px", id*200, 2000)}>
               {link}
               </div>
             </li>

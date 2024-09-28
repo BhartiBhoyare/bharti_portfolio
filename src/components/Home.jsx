@@ -15,7 +15,7 @@ const Home = () => {
           I am passionate about web development and eager to turn my ideas into eye-catching websites that truly connect with people.
           </p>
           <div>
-            <button ref={Animation("left", "10px", 200, 3000)} className="group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <button ref={Animation("left", "10px", 200, 3000)} className="group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer">
               Resume
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineArrowRight size={24} className="pt-[0.2rem] pl-2" />
@@ -27,7 +27,7 @@ const Home = () => {
           <img
             src={BhartiImage}
             alt="my profile"
-            ref={Animation("left", "10px", 200, 3000)} className="rounded-2xl mx-auto h-[18rem] lg:h-[32rem] lg:w-[28rem] lg:mt-4"
+            ref={Animation("left", "10px", 200, 3000)} className="rounded-2xl mx-auto h-[18rem] lg:h-[30rem] lg:w-[26rem] lg:mt-4"
           />
         </div>
       </div>

@@ -4,7 +4,8 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Certificates from "./components/Certificates";
 import Expertise from "./components/Expertise";
-// import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     <About/>
     <Expertise/>
     <Certificates/>
-    {/* <Contact/> */}
+    <Footer/>
    </div>
   );
 }
