@@ -49,9 +49,9 @@ const Footer = () => {
     <div 
     name = "contact"
     className="lg:mt-6 p-6">
-      <div ref={Animation("right", "50px", 200)} className="text-rose-400 font-bold text-pretty text-2xl lg:text-3xl flex flex-col text-center py-6">
+      <div ref={Animation("right", "20px", 200)} className="text-rose-400 font-bold text-pretty text-2xl lg:text-3xl flex flex-col text-center py-6">
         Contact me
-        <div ref={Animation("left", "50px", 200)} className="pt-4">
+        <div ref={Animation("left", "20px", 200)} className="pt-4">
           <p className="font-bold text-rose-200 text-sm lg:text-xl">
             Phone No.: <span className="text-white">9039269129</span>{" "}
           </p>
