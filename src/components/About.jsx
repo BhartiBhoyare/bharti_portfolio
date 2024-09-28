@@ -4,7 +4,7 @@ import { Animation } from "@hemant0621/animation";
 
 const about = () => {
   return (
-    <div name="about" className="w-full mt-28 p-2">
+    <div name="about" className="w-full mt-8 lg:mt-28 p-2">
       <div className="max-w-screen-lg p-6 mx-auto flex flex-col justify-center items-center h-full">
         <div ref={Animation("left","30px",200, 1000)}
             className="text-4xl font-bold inline border-b-4 border-rose-800 text-rose-100 lg:text-6xl items-center mb-6"

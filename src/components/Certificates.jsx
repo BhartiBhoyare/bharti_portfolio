@@ -8,40 +8,46 @@ import Cert6 from "../assets/certificate 6.png";
 import { Animation } from "@hemant0621/animation";
 
 const Certificates = () => {
-  const link = [
+  const links = [
     {
       id: 1,
       src: Cert1,
+      href: "/Data Analytics with Python certificate.pdf",
       title: "Data Analytics with Python",
       download: true,
     },
     {
       id: 2,
       src: Cert2,
+      href: "/EN21CS303013___AWS_Academy_Cloud_Foundations.pdf",
       title: "AWS Cloud Foundation",
       download: true,
     },
     {
       id: 3,
       src: Cert3,
+      href: "/EN21CS303013__Bharti Bhoyare AWS Cloud Architect Certificate.pdf",
       title: "AWS Cloud Architecting",
       download: true,
     },
     {
       id: 4,
       src: Cert4,
+      href: "/Google Data Analytics certificate.pdf",
       title: "Google Data Analytics",
       download: true,
     },
     {
       id: 5,
       src: Cert5,
+      href: "/Bharti_Bhoyare_TCion certificate.pdf",
       title: "TCSion Youth Devlopment Module",
       download: true,
     },
     {
       id: 6,
       src: Cert6,
+      href: "/Python For DS and ML Bootcamp Certificate.pdf",
       title: "Python for Data Science and Machine Learning Bootcamp",
       download: true,
     },
@@ -60,25 +66,32 @@ const Certificates = () => {
 
         <div
           ref={Animation("left", "50px", 200, 2000)}
-          className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mt-12 px-12 sm:px-0"
+          className="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-12 lg:px-12 px-8"
         >
-          {link.map(({ id, src }) => (
+          {links.map((link) => (
             <div
               key={link.id}
-              className=" shadow-md shadow-rose-400 rounded-lg"
+              className=" shadow-md shadow-rose-400 rounded-lg lg:h-[18rem] h-[9.5rem]"
             >
               <img
-                src={src}
+                src={link.src}
                 alt=""
-                className="rounded-xl h-[16rem] py-2 px-2 duration-200 hover:scale-105"
+                className="rounded-xl lg:h-[15rem] h-[7rem] py-2 px-2 duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button
                   href={link.href ? link.href : "/"}
-                  className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125"
+                  className="duration-200 hover:scale-125"
                   download={link.download}
                 >
-                  Download
+                  <a
+                   className="group text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer"
+                   href={link.href ? link.href : "/"}
+                   download={link.download}
+                   target="_blank"
+                   rel="noreferrer">
+                    Download
+                  </a>
                 </button>
               </div>
             </div>
