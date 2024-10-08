@@ -4,6 +4,7 @@ import css from "../assets/css.png";
 // import javascript from "../assets/JavaScript.png";
 import tailwind from "../assets/tailwind.png";
 import reactjs from "../assets/ReactJs.png";
+import git from "../assets/GIT.png"
 // import github from "../assets/Github.png";
 import mysql from "../assets/MySQL.png";
 // import aws from "../assets/aws.png";
@@ -52,6 +53,12 @@ const Expertise = () => {
       src: mysql,
       title: "MySQL",
       style: "shadow-[#4479a1] text-white font-bold text-base",
+    },
+    {
+      id: 8,
+      src: git,
+      title: "GIT",
+      style: "shadow-[#f3531f] text-white font-bold text-base",
     },
     // {
     //   id: 8,
