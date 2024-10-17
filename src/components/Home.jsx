@@ -14,7 +14,7 @@ const Home = () => {
           Resume
         </>
       ),
-      href: "/Bharti Bhoyare Job CV final.pdf",
+      href: "/Bharti Bhoyare CV.pdf",
       download: true,
     },
   ];
