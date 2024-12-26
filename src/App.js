@@ -5,6 +5,7 @@ import About from "./components/About";
 import Certificates from "./components/Certificates";
 import Expertise from "./components/Expertise";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <SocialLinks/>
     <About/>
     <Expertise/>
+    <Projects/>
     <Certificates/>
     <Footer/>
    </div>

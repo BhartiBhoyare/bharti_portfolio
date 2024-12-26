@@ -72,7 +72,7 @@ const Expertise = () => {
     <div
       name="expertise"
       ref={Animation("right", "50px", 200, 2000)}
-      className="bg-gradient-to-b lg:mt-20"
+      className="lg:mt-20"
     >
       <div className="max-w-screen-lg bg- mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-200">
         <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">

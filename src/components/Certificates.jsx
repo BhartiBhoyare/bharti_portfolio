@@ -57,7 +57,7 @@ const Certificates = () => {
     <div
       name="certificates"
       ref={Animation("right", "50px", 200, 2000)}
-      className="w-full text-white lg:mt-10"
+      className="w-full text-white mt-4 lg:mt-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-rose-100">
         <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">
