@@ -15,7 +15,7 @@ const pro = [
     {
         id: 2,
         src: portfolio,
-        title: "My Protfolio",
+        title: "My Portfolio",
         style: "shadow-blue-300 text-white font-bold text-xl text-base",
     },
     {
