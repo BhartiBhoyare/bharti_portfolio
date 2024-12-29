@@ -40,15 +40,15 @@ const about = () => {
               strong interest in web development and am excited to create
               engaging, user-friendly websites that connect with people.
 
-              <ul className="text-rose-500 lg:text-3xl"> Education:
-                <p className="text-white lg:text-lg">
+              <ul className="text-rose-500 font-bold lg:text-3xl text-2xl"> Education:
+                <p className="text-white lg:text-lg text-sm font-light">
                 <li>Current CGPA: 7.65</li>
                 <li>12th Grade: Kendriya Vidyalaya Mhow - 76.6%</li>
                 <li>10th Grade: Kendriya Vidyalaya Mhow - 65.2%</li>
                 </p>
               </ul>
-              <ul className="text-rose-500 lg:text-3xl"> Hobbies:
-                <p className="text-white lg:text-lg">
+              <ul className="text-rose-500 lg:text-3xl font-bold text-2xl"> Hobbies:
+                <p className="text-white lg:text-lg text-sm font-light">
                 <li>Helping others</li>
                 <li>Cooking</li>
                 <li>Singing</li>
