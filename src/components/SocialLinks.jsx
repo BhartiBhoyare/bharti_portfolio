@@ -64,7 +64,7 @@ const SocialLinks = () => {
            <li
         key={link.id}
         className={
-          "pl-6 flex justify-between items-center rounded-sm w-36 h-12 px-3 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-slate-900" +
+          "pl-6 flex justify-between items-center rounded-sm w-36 h-12 px-3 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-rose-900" +
           " " +
           link.style
         }

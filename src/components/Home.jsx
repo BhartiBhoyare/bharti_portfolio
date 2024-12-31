@@ -20,18 +20,18 @@ const Home = () => {
   ];
 
   return (
-    <div name="home" className="w-full text-white mt-14">
+    <div name="home" className="w-full text-rose-900 mt-14">
       <div className="lg:w-full flex flex-col-reverse gap-5 lg:gap-0 lg:justify-between items-center lg:px-40 px-[1.8rem] md:flex-row"> 
         <div className="flex flex-col justify-center lg:mt-24">
-          <h2 ref={Animation("top", "10px", 200, 3000)} className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Front-end <span className="text-pink-600">Developer</span>
+          <h2 ref={Animation("top", "10px", 200, 3000)} className="text-4xl sm:text-7xl font-bold text-violet-700">
+            I'm a Front-end <span className="text-rose-600">Developer</span>
           </h2>
-          <p ref={Animation("top", "10px", 200, 3000)} className ="text-rose-100 text-xl lg:text-2xl lg:mt-4 font-bold py-6 max-w-md">
+          <p ref={Animation("top", "10px", 200, 3000)} className ="text-rose-500 text-xl lg:text-2xl lg:mt-4 font-bold py-6 max-w-md">
           I am passionate about web development and eager to turn my ideas into eye-catching websites that truly connect with people.
           </p>
           <div>
           {links.map((link, index) => (
-            <button ref={Animation("left", "10px", 200, 3000)} className="lg:hidden group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer"
+            <button ref={Animation("left", "10px", 200, 3000)} className="lg:hidden group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-rose-500 to-rose-400 cursor-pointer"
             key={index}
             >
               <a

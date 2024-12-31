@@ -59,7 +59,7 @@ const Certificates = () => {
       ref={Animation("right", "50px", 200, 2000)}
       className="w-full text-white mt-4 lg:mt-10"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-rose-100">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-rose-700">
         <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">
           <p className="border-b-4 pb-2 border-rose-900">Certificates</p>
         </div>
@@ -71,7 +71,7 @@ const Certificates = () => {
           {links.map((link) => (
             <div
               key={link.id}
-              className=" shadow-md shadow-cyan-700 rounded-lg lg:h-[18rem] h-[9.5rem]"
+              className=" shadow-md shadow-rose-400 rounded-lg lg:h-[18rem] h-[9.5rem]"
             >
               <img
                 src={link.src}
@@ -85,7 +85,7 @@ const Certificates = () => {
                   download={link.download}
                 >
                   <a
-                   className="group text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer"
+                   className="group text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-2 flex items-center rounded-md bg-gradient-to-r from-rose-500 to-rose-400 cursor-pointer"
                    href={link.href ? link.href : "/"}
                    download={link.download}
                    target="_blank"
