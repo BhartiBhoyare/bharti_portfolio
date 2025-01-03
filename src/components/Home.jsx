@@ -31,7 +31,7 @@ const Home = () => {
           </p>
           <div>
           {links.map((link, index) => (
-            <button ref={Animation("left", "10px", 200, 3000)} className="lg:hidden group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-rose-500 to-rose-400 cursor-pointer"
+            <button ref={Animation("left", "10px", 200, 3000)} className="lg:hidden group text-white w-fit px-6 py-3 mt-6 flex items-center rounded-md bg-gradient-to-r from-teal-600 to-teal-400 cursor-pointer"
             key={index}
             >
               <a
