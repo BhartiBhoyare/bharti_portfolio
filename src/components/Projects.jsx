@@ -9,19 +9,19 @@ const pro = [
     {
         id: 1,
         src: foodies,
-        title: "Foodies",
+        title: "Foodies Website",
         style: "shadow-rose-300 text-rose-100 font-bold text-xl text-base",
     },
     {
         id: 2,
         src: portfolio,
-        title: "My Portfolio",
+        title: "My Portfolio Website",
         style: "shadow-rose-300 text-rose-100 font-bold text-xl text-base",
     },
     {
         id: 3,
         src: spe,
-        title: "Sparkal Price Estimator",
+        title: "Sparkal Price Estimator Website",
         style: "shadow-rose-300 text-rose-100 font-bold text-xl text-base",
     },
 ]

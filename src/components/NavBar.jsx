@@ -34,10 +34,10 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-16 px-4 pt-3 text-rose-200 bg-[#87032b] z-30 fixed">
+    <div className="flex justify-between items-center w-full h-16 px-4 pt-3 text-rose-950 bg-[#e63e73] z-30 fixed">
       <div
         ref={Animation("top", "10px", 200, 2000)}
-        className="lg:text-[2.8rem] text-4xl font-semibold font-signature ml-2"
+        className="lg:text-[3rem] text-4xl font-semibold font-signature ml-2"
       >
         Bharti Bhoyare
       </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-semibold text-base text-rose-100 hover:scale-105 duration-200"
+              className="px-4 cursor-pointer capitalize font-semibold text-xl text-rose-950 hover:scale-105 duration-200"
               >
               <div ref={Animation("top", "10px", id*200, 2000)}>
               <Link to={link} smooth duration={500}>{link}</Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-rose-100 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-rose-950 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
