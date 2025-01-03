@@ -15,7 +15,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={26} />
         </>
       ),
-      href: "https://www.linkedin.com/in/bharti-bhoyare-980306251/",
+      href: "https://www.linkedin.com/in/bharti-bhoyare/",
     },
     {
       id: 2,

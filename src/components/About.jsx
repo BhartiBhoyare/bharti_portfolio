@@ -49,11 +49,12 @@ const about = () => {
               </ul>
               <ul className="text-rose-200 lg:text-3xl font-bold text-2xl"> Hobbies:
                 <p className="text-rose-50 lg:text-lg text-sm font-light">
-                <li>Helping others</li>
+                <li>Helping</li>
                 <li>Cooking</li>
                 <li>Singing</li>
-                <li>Listening to love and spiritual music</li>
+                <li>Listening love and spiritual music</li>
                 <li>Watching K-Dramas</li>
+                <li>Dancing</li>
                 </p>
               </ul>
             </div>
