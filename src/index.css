@@ -10,7 +10,7 @@
         font-family: "Molengo", sans-serif;
     }
     body{
-        background-image: linear-gradient(#fff0f2, #fcb6b6, #fad2d2);
+        background-image: linear-gradient(#87032b, #e63e73, #c91e51);
     }
     .animate-line {
         animation: draw-line 2s linear;

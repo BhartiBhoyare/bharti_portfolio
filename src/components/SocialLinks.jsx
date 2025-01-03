@@ -64,7 +64,7 @@ const SocialLinks = () => {
            <li
         key={link.id}
         className={
-          "pl-6 flex justify-between items-center rounded-sm w-36 h-12 px-3 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-rose-900" +
+          "pl-6 flex justify-between items-center rounded-sm w-36 h-12 px-3 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-rose-700" +
           " " +
           link.style
         }
@@ -72,7 +72,7 @@ const SocialLinks = () => {
             <a
               ref={Animation("left", "200px", link.id*200)}
               href={link.href ? link.href : "/"}
-              className="flex justify-between items-center w-full text-white"
+              className="flex justify-between items-center w-full text-white font-bold"
               download={link.download}
               target="_blank"
               rel="noreferrer"

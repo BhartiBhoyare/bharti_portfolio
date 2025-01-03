@@ -16,49 +16,49 @@ const Expertise = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-700 text-rose-600 font-bold text-base",
+      style: "shadow-orange-500 text-rose-50 font-bold text-base",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-600 text-rose-600 font-bold text-base",
+      style: "shadow-blue-600 text-rose-50 font-bold text-base",
     },
     {
       id: 3,
       src: "/JavaScript.png",
       title: "JavaScript",
-      style: "shadow-yellow-600 text-rose-600 font-bold text-base",
+      style: "shadow-yellow-600 text-rose-50 font-bold text-base",
     },
     {
       id: 4,
       src: reactjs,
       title: "ReactJS",
-      style: "shadow-[#01dbff] text-rose-600 font-bold text-base",
+      style: "shadow-[#01dbff] text-rose-50 font-bold text-base",
     },
     {
       id: 5,
       src: tailwind,
       title: "Tailwind CSS",
-      style: "shadow-[#44a8b3] text-rose-600 font-bold text-base",
+      style: "shadow-[#44a8b3] text-rose-50 font-bold text-base",
     },
     {
       id: 6,
       src: "/Github.png",
       title: "GitHub",
-      style: "shadow-black text-rose-600 font-bold text-base",
+      style: "shadow-black text-rose-50 font-bold text-base",
     },
     {
       id: 7,
       src: mysql,
       title: "MySQL",
-      style: "shadow-[#4479a1] text-rose-600 font-bold text-base",
+      style: "shadow-[#4479a1] text-rose-50 font-bold text-base",
     },
     {
       id: 8,
       src: git,
       title: "GIT",
-      style: "shadow-[#f3531f] text-rose-600 font-bold text-base",
+      style: "shadow-[#f76839] text-rose-50 font-bold text-base",
     },
     // {
     //   id: 8,
@@ -74,9 +74,9 @@ const Expertise = () => {
       ref={Animation("right", "50px", 200, 2000)}
       className="lg:mt-20"
     >
-      <div className="max-w-screen-lg bg- mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-600">
+      <div className="max-w-screen-lg bg- mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-100">
         <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">
-            <p className="border-b-4 pb-2 border-rose-900">
+            <p className="border-b-4 pb-2 border-rose-200">
             Expertise
             </p>
         </div>

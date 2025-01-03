@@ -49,19 +49,19 @@ const Footer = () => {
     <div 
     name = "contact"
     className="lg:mt-6 p-6">
-      <div ref={Animation("right", "20px", 200)} className="text-rose-900 font-bold text-pretty text-2xl lg:text-3xl flex flex-col text-center py-6">
+      <div ref={Animation("right", "20px", 200)} className="text-rose-100 font-bold text-pretty text-2xl lg:text-4xl flex flex-col text-center py-6">
         Contact me
         <div ref={Animation("left", "20px", 200)} className="pt-4">
-          <p className="font-bold text-rose-800 text-sm lg:text-xl">
-            Phone No.: <span className="text-rose-500">9039269129</span>{" "}
+          <p className="font-bold text-rose-100 text-sm lg:text-xl">
+            Phone No.: <span className="text-rose-50">9039269129</span>{" "}
           </p>
-          <p className="font-bold text-rose-800 text-sm lg:text-xl">
+          <p className="font-bold text-rose-100 text-sm lg:text-xl">
             Address:{" "}
-            <span className="text-rose-500">
+            <span className="text-rose-50">
               82-B Utkarsh Vihar Colony Mhow Madhya Pradesh, India - 453441
             </span>{" "}
           </p>
-          <div className="lg:hidden text-rose-500 grid grid-cols-2 gap-2 pl-16 pr-3 mt-2 text-sm">
+          <div className="lg:hidden text-rose-50 grid grid-cols-2 gap-2 pl-16 pr-3 mt-2 text-sm">
               {links.map((link) => (
                 <div
                   key={link.id}
