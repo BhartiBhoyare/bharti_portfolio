@@ -85,7 +85,7 @@ const Projects = () => {
                 />
                 <p className="lg:mt-4 text-sm md:text-xl my-1 md:my-2">{title}</p>
 
-                <div className="flex items-center justify-between px-6 md:px-14 mb-2">
+                <div className="flex justify-between mt-2 px-6 md:px-14 mb-2">
                   <div className="flex space-x-2">
                     <span className="w-6 xl:size-8">{skill1}</span>
                     <span className="w-6 xl:size-8">{skill2}</span>
