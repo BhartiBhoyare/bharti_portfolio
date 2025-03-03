@@ -57,45 +57,48 @@ const Certificates = () => {
     <div
       name="certificates"
       ref={Animation("right", "50px", 200, 2000)}
-      className="w-full text-white mt-4 lg:mt-10"
+      className="w-full text-white mt-6 h-[98vh] lg:mt-16 xl:h-[35.4rem]"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-rose-100">
-        <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">
-          <p className="border-b-4 pb-2 border-rose-200">Certificates</p>
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full text-rose-100">
+        <div className="flex justify-center lg:text-5xl md:text-4xl text-3xl font-bold p-2">
+          <p className="pb-4">Certificates</p>
         </div>
 
-        <div
-          ref={Animation("left", "80px", 200, 2000)}
-          className="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-12 lg:px-0 px-8"
-        >
-          {links.map((link) => (
-            <div
-              key={link.id}
-              className=" shadow-md shadow-rose-300 rounded-lg lg:h-[18rem] h-[9.5rem]"
-            >
-              <img
-                src={link.src}
-                alt=""
-                className="rounded-xl lg:h-[15rem] h-[7rem] py-2 px-2 duration-200 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
-                <button
-                  href={link.href ? link.href : "/"}
-                  className="duration-200 hover:scale-125"
-                  download={link.download}
-                >
-                  <a
-                   className="group text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-2 flex items-center rounded-md bg-gradient-to-r from-rose-500 to-rose-400 cursor-pointer"
-                   href={link.href ? link.href : "/"}
-                   download={link.download}
-                   target="_blank"
-                   rel="noreferrer">
-                    Download
-                  </a>
-                </button>
+        <div className="w-full flex justify-center">
+          <div
+            ref={Animation("left", "80px", 200, 2000)}
+            className="grid grid-cols-2 md:grid-cols-3 lg:w-[45rem] gap-4 md:gap-8 lg:mt-2 lg:px-0 px-8"
+          >
+            {links.map((link) => (
+              <div
+                key={link.id}
+                className=" shadow-md shadow-blue-300 rounded-lg md:h-[13rem] h-[9.5rem]"
+              >
+                <img
+                  src={link.src}
+                  alt=""
+                  className="rounded-xl md:h-[10rem] h-[7rem] py-2 px-2 duration-200 hover:scale-105"
+                />
+                <div className="flex items-center justify-center">
+                  <button
+                    href={link.href ? link.href : "/"}
+                    className="duration-200 hover:scale-110"
+                    download={link.download}
+                  >
+                    <a
+                      className="group mt-1 text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-1 flex items-center rounded-md bg-gradient-to-br from-blue-950 to-blue-800 hover:bg-gradient-to-bl cursor-pointer"
+                      href={link.href ? link.href : "/"}
+                      download={link.download}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Download
+                    </a>
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

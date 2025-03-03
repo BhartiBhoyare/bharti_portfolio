@@ -46,7 +46,7 @@ const Expertise = () => {
       id: 6,
       src: "/Github.png",
       title: "GitHub",
-      style: "shadow-black text-rose-50 font-bold text-base",
+      style: "shadow-white text-rose-50 font-bold text-base",
     },
     {
       id: 7,
@@ -72,25 +72,25 @@ const Expertise = () => {
     <div
       name="expertise"
       ref={Animation("right", "50px", 200, 2000)}
-      className="lg:mt-20"
+      className="lg:mt-12 mt-6"
     >
-      <div className="max-w-screen-lg bg- mx-auto p-4 flex flex-col justify-center w-full h-full text-rose-100">
-        <div className="flex justify-center lg:text-6xl text-4xl font-bold p-2">
-            <p className="border-b-4 pb-2 border-rose-200">
+      <div className="xl:max-w-screen-lg mx-auto flex flex-col items-center justify-center w-full h-[98vh] xl:h-[36.2rem] text-rose-100">
+        <div className="flex justify-center lg:text-5xl md:text-4xl text-3xl font-bold">
+            <p className="pb-4">
             Expertise
             </p>
         </div>
 
         <div
           ref={Animation("left", "80px", 200, 2000)}
-          className="lg:w-full lg:mt-8 w-[20rem] grid grid-cols-2 lg:grid-cols-3 gap-8 text-center py-8 pl-10 lg:px-0"
+          className="lg:w-full lg:mt-4 w-[20rem] md:mt-6 md:w-[80%] grid grid-cols-2 md:grid-cols-3 gap-8 text-center px-6 md:pl-0 lg:px-0"
         >
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="lg:w-28 w-14 mx-auto" />
+              <img src={src} alt="" className="lg:w-[4.7rem] md:w-16 w-12 mx-auto" />
               <p className="lg:mt-4 mt-2">{title}</p>
             </div>
           ))}
