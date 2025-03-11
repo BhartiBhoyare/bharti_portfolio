@@ -45,7 +45,7 @@ const about = () => {
                 <div className="hidden lg:flex flex-col">
                 <li>Helping</li>
                 <li>Cooking</li>
-                <li>Cooking</li>
+                <li>Singing</li>
                 <li>Listening love and spiritual music</li>
                 <li>Watching K-Dramas</li>
                 </div>
