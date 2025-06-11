@@ -83,7 +83,7 @@ const Expertise = () => {
 
         <div
           ref={Animation("left", "80px", 200, 2000)}
-          className="lg:w-full lg:mt-4 w-[20rem] md:mt-6 md:w-[80%] grid grid-cols-2 md:grid-cols-3 gap-8 text-center px-6 md:pl-0 lg:px-0"
+          className="overflow-y-auto scrollbar-none h-[60vh] lg:w-[80vw] lg:mt-4 w-[19rem] md:mt-6 md:w-[80%] grid grid-cols-2 md:grid-cols-3 gap-8 text-center px-6 md:pl-0 lg:px-0"
         >
           {techs.map(({ id, src, title, style }) => (
             <div

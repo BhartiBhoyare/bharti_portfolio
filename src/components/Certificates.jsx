@@ -64,20 +64,20 @@ const Certificates = () => {
           <p className="pb-4">Certificates</p>
         </div>
 
-        <div className="w-full flex justify-center">
+        <div className="w-full overflow-y-auto scrollbar-none h-[60vh] flex justify-center">
           <div
             ref={Animation("left", "80px", 200, 2000)}
-            className="grid grid-cols-2 md:grid-cols-3 lg:w-[45rem] gap-4 md:gap-8 lg:mt-2 lg:px-0 px-8"
+            className="grid grid-cols-2 md:grid-cols-3 lg:w-[50rem] gap-4 md:gap-8 lg:mt-2 lg:px-0 px-8"
           >
             {links.map((link) => (
               <div
                 key={link.id}
-                className=" shadow-md shadow-blue-300 rounded-lg md:h-[13rem] h-[9.5rem]"
+                className=" shadow-md shadow-blue-300 rounded-lg md:h-[15rem] h-[9.5rem]"
               >
                 <img
                   src={link.src}
                   alt=""
-                  className="rounded-xl md:h-[10rem] h-[7rem] py-2 px-2 duration-200 hover:scale-105"
+                  className="rounded-xl md:h-[12rem] h-[7rem] py-2 px-2 duration-200 hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
                   <button
