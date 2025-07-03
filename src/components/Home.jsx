@@ -9,7 +9,6 @@ const Home = () => {
       id: 4,
       child: <>Resume</>,
       href: "/Bharti Bhoyare CV.pdf",
-      download: true,
     },
   ];
 
