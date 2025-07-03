@@ -43,7 +43,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "/Bharti Bhoyare CV.pdf",
-      download: true,
     },
     {
       id: 5,

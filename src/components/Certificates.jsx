@@ -5,6 +5,7 @@ import Cert3 from "../assets/certificate 3.png";
 import Cert4 from "../assets/certificate 4.png";
 import Cert5 from "../assets/certificate 5.png";
 import Cert6 from "../assets/certificate 6.png";
+import Cert7 from "../assets/certificate 7.png";
 import { Animation } from "@hemant0621/animation";
 
 const Certificates = () => {
@@ -51,6 +52,13 @@ const Certificates = () => {
       title: "Python for Data Science and Machine Learning Bootcamp",
       download: true,
     },
+    {
+      id: 7,
+      src: Cert7,
+      href: "/Certificate of Generative AI Mastermind By Outskill.pdf",
+      title: "PGenerative AI Mastermind",
+      download: true,
+    },
   ];
 
   return (
@@ -79,22 +87,24 @@ const Certificates = () => {
                   alt=""
                   className="rounded-xl md:h-[12rem] h-[7rem] py-2 px-2 duration-200 hover:scale-105"
                 />
-                <div className="flex items-center justify-center">
-                  <button
-                    href={link.href ? link.href : "/"}
-                    className="duration-200 hover:scale-110"
-                    download={link.download}
+                <div className="flex items-center justify-center space-x-4">
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 duration-200 hover:scale-110 text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-1 flex items-center rounded-md bg-gradient-to-br from-blue-950 to-blue-800 hover:bg-gradient-to-bl cursor-pointer"
                   >
-                    <a
-                      className="group mt-1 text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-1 flex items-center rounded-md bg-gradient-to-br from-blue-950 to-blue-800 hover:bg-gradient-to-bl cursor-pointer"
-                      href={link.href ? link.href : "/"}
-                      download={link.download}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Download
-                    </a>
-                  </button>
+                    View
+                  </a>
+                  <a
+                    className="mt-1 duration-200 hover:scale-110 text-white font-bold w-fit px-2 py-1 lg:px-4 lg:py-1 flex items-center rounded-md bg-gradient-to-br from-blue-950 to-blue-800 hover:bg-gradient-to-bl cursor-pointer"
+                    href={link.href ? link.href : "/"}
+                    download={link.download}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Download
+                  </a>
                 </div>
               </div>
             ))}
